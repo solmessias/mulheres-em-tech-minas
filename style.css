@@ -7,8 +7,23 @@ body{
 #navegacao{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 3px 4px -2px rgba(rgb(0,0,0.15));
 }
 
 .nav_menu{
     list-style: none;
+    display: flex;
+}
+
+.nav_menu li{
+    margin-right: 20px;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5b09a8;
+    font-weight: bolder;
 }
