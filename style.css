@@ -1,23 +1,28 @@
-body{
-    margin :0;
+body {
+    margin: 0;
     padding: 0;
     font-family: "Open Sans", Sans Serif;
 }
 
-#navegacao{
+.destaque {
+    text-align: center;
+    font-weight: bold;
+}
+
+#navegacao {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    box-shadow: 0px 3px 4px -2px rgba(rgb(0,0,0.15));
+    box-shadow: 0px 3px 4px -2px rgba(rgb(0, 0, 0.15));
 }
 
-.nav_menu{
+.nav_menu {
     list-style: none;
     display: flex;
 }
 
-.nav_menu li{
+.nav_menu li {
     margin-right: 20px;
 }
 
@@ -28,12 +33,38 @@ body{
     font-weight: bolder;
 }
 
-.nav_logo{
+.nav_logo {
     width: 200px;
 }
 
-.minhaFoto{
+#autora {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.minhaFoto {
     height: auto;
     width: 200px;
     border-radius: 100px;
 }
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px;
+}
+
+.intro_autora{
+    margin-right: 30px;
+}
+
+.titulo_autora {
+    text-align: center;
+}
+
+.artigo_autora h2{
+    color: #1fd6d6;
+}
+
