@@ -27,3 +27,13 @@ body{
     color: #5b09a8;
     font-weight: bolder;
 }
+
+.nav_logo{
+    width: 200px;
+}
+
+.minhaFoto{
+    height: auto;
+    width: 200px;
+    border-radius: 100px;
+}
